@@ -1,3 +1,4 @@
+'use strict';
 var today = new Date();
 var hourNow = today.getHours();
 var greeting;
@@ -10,4 +11,3 @@ if (hourNow>18){
 } else {
     greeting = 'Something went wrong!';}
     document.write('<h3>'+greeting+'</h3>');
-    console.log("test");
